@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon Ball-Seleção de personagem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/card-dragonball.svg.png" alt="Logo Dragon Ball">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="goku" data-name="Goku" data-description="Habilidades: Força, velocidade, durabilidade, sentidos sobre-humanos, resistência sobre-humanas, absorção de energia, resistência ao calor, tele cinese, cura, regeneração, absorção de energia, kaioken, teletransporte e telepatia.">
+                    <img src="./src/imagens/card-goku.jpg" alt="Personagem Goku" />
+                </li>
+
+                <li class="personagem" id="vegeta" data-name="Vegeta" data-description="Vegeta é capaz de criar e fortalecer ataques através de seu ki. Ele tem a habilidade de utilizar a técnica Buku-jutsu para voar. Constantes treinamentos e sua herança Saiyajin lhe deram força, velocidade e reflexos super humanos.">
+                    <img src="./src/imagens/card-vegeta.jpg" alt="Personagem Vegeta" />
+                </li>
+
+                <li class="personagem" id="kuririn" data-name="kuririn" data-description="Poderes e Habilidades: Super voo, velocidade, agilidade e resistência. Manipulação de Ki, telecinese, telepatia, voo, sensor de energia. Inteligência: Anos de treino e experiência em combate contra inimigos superiores.">
+                    <img src="./src/imagens/card-kuririn.jpg" alt="Personagem Kuririn" />
+
+                </li>
+                <li class="personagem" id="piccolo" data-name="Piccolo" data-description=" Piccolo é capaz de expandir seus braços, se locomover em velocidades maiores do que o olho pode ver e regenerar membros amputados de seu corpo desde que sua cabeça fica inteira, além de possuir força e audição sobrehumanas." >
+                    <img src="./src/imagens/card-piccolo.jpg" alt="Personagem Piccolo" />
+                </li>
+                <li class="personagem" id="android18" data-name="Android 18" data-description="Poderes:
+                Android 18 possui o poder de Bala Infinita, no qual ela pode atirar em seu oponente com as mãos, e essa habilidade vale tanto para curta quanto para longa distância.
+                Uma técnica que a moça conseguiu aprender com seu marido foi o Disco Destruidor, no qual o personagem cria um disco, a partir do seu ki, e ele gira rapidamente, provocando uma semelhança a serras. Ele pode ser arremessado no inimigo a longa distância.">
+                    <img src="./src/imagens/card-android18.jpg" alt="Personagem Android 18" />
+                </li>
+                <li class="personagem" id="ten-shin-han" data-name="Tenshinhan" data-description="Poderes e Habilidades: Super velocidade, agilidade, resistência e força. Manipulação de Ki, sensor de energia, telecinese, telepatia, voo, técnicas de selamento.">   
+                    <img src="./src/imagens/card-ten-shin-han.jpeg" alt="Personagem Ten-Shin-Han" />
+                </li>
+                <li class="personagem" id="yamcha" data-name="Yamcha" data-description="Poderes e Habilidades: Super velocidade, agilidade, resistência e força. Manipulação de Ki, sensor de energia, telecinese, voo. Inteligência: Anos de treinamento marcial e experiência em combate.">
+                    <img src="./src/imagens/card-yamcha.jpg" alt="Personagem Yamcha" />
+                </li>
+                <li class="personagem" id="freeza" data-name="Freeza" data-description="Poderes e Habilidades: Super velocidade, força, resistência, agilidade. Voo, Manipulação de Ki, Telecinese, Sobrevive ao Espaço, incrível tolerância a danos (pode sobreviver mesmo sendo cortado em dezenas de pedaços), várias transformações, sensor de Ki.">
+                    <img src="./src/imagens/card-freeza.jpg" alt="Personagem Freeza" />
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-goku.png " alt="Personagem Selecionado" />
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Goku</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Força, velocidade, durabilidade, sentidos sobre-humanos, resistência sobre-humanas, absorção de
+                    energia, resistência ao calor, tele cinese, cura, regeneração, absorção de energia, kaioken,
+                    teletransporte e telepatia
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
